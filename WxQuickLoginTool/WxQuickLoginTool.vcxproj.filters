@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="配置">
+      <UniqueIdentifier>{223beef6-7345-4b61-a165-47e4403c3be7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="配置\解析">
+      <UniqueIdentifier>{bc64e3b6-9c3a-40e4-b769-367fd2d0d7a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="结构">
+      <UniqueIdentifier>{bb132a3b-a73b-464f-b33e-279e1d1b592b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="配置\所有用户">
+      <UniqueIdentifier>{c9fd90b6-01e1-4812-a2f1-8cf824e39549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="配置\单个用户">
+      <UniqueIdentifier>{3e7c394a-5bb1-4482-ad5a-3d02a02fcba4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="公共">
+      <UniqueIdentifier>{2ee4ccf8-082b-4a29-831b-a91078abd092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="公共\字符串">
+      <UniqueIdentifier>{541d257f-2a04-480f-8cd4-4af898047d34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="公共\安装列表">
+      <UniqueIdentifier>{5e63b2a7-01d2-492e-8152-ac76f541152c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="微信">
+      <UniqueIdentifier>{a5777b01-2f56-4102-9ef4-073973fe0ce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="公共\文件">
+      <UniqueIdentifier>{d81e793b-f043-448e-9ef4-0b456da8681f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WxQuickLoginTool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WxQuickLoginToolDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WxConfigHelper.h">
+      <Filter>配置\解析</Filter>
+    </ClInclude>
+    <ClInclude Include="WxStruct.h">
+      <Filter>结构</Filter>
+    </ClInclude>
+    <ClInclude Include="WxAllUserConfig.h">
+      <Filter>配置\所有用户</Filter>
+    </ClInclude>
+    <ClInclude Include="WxLoginUserConfig.h">
+      <Filter>配置\单个用户</Filter>
+    </ClInclude>
+    <ClInclude Include="StringHelper.h">
+      <Filter>公共\字符串</Filter>
+    </ClInclude>
+    <ClInclude Include="Sofinfo.h">
+      <Filter>公共\安装列表</Filter>
+    </ClInclude>
+    <ClInclude Include="WxConfigManager.h">
+      <Filter>微信</Filter>
+    </ClInclude>
+    <ClInclude Include="FileHelp.h">
+      <Filter>公共\文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WxQuickLoginTool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WxQuickLoginToolDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WxConfigHelper.cpp">
+      <Filter>配置\解析</Filter>
+    </ClCompile>
+    <ClCompile Include="WxAllUserConfig.cpp">
+      <Filter>配置\所有用户</Filter>
+    </ClCompile>
+    <ClCompile Include="WxLoginUserConfig.cpp">
+      <Filter>配置\单个用户</Filter>
+    </ClCompile>
+    <ClCompile Include="StringHelper.cpp">
+      <Filter>公共\字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="Softinfo.cpp">
+      <Filter>公共\安装列表</Filter>
+    </ClCompile>
+    <ClCompile Include="WxConfigManager.cpp">
+      <Filter>微信</Filter>
+    </ClCompile>
+    <ClCompile Include="FileHelp.cpp">
+      <Filter>公共\文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WxQuickLoginTool.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\WxQuickLoginTool.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\WxQuickLoginTool.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
