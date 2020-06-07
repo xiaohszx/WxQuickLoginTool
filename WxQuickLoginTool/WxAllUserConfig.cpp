@@ -38,7 +38,6 @@ bool WxAllUserConfig::ModifyLoginWx(std::wstring wx_id)
 	WxConfigHelper helper;
 	if(helper.open_config(path + L"\\All Users\\config\\config.data")){
 		std::wstring replace_path = path + L"\\" + wx_id + L"\\config\\AccInfo.dat";
-		//std::wstring replace_path = L"D:\\D12345612313131231111111111111111111111111131321132121123456123131312311111111111111111111111111313211321211234561231313123111111111111111111111111113132113212111111113132\\WeChat Files\\xvsd100\\config\\AccInfo.dat";
 		std::string utf8_string = wstringToUtf8(replace_path);
 		helper.modify_key_string(0x32, utf8_string.c_str());
 		helper.flush();
@@ -57,7 +56,7 @@ void WxAllUserConfig::GetAllUserLoginFromConfig(std::list<std::wstring>& all_use
 		std::wstring item_dic = it->c_str();
 		if(item_dic != L"All Users" && item_dic != L"Applet"){
 			std::wstring full_path = path + L"\\" + item_dic + L"\\config\\AccInfo.dat";
-			OutputDebugString(L"ÅäÖÃÎÄ¼þ");
+			OutputDebugString(L"Ã…Ã¤Ã–ÃƒÃŽÃ„Â¼Ã¾");
 			OutputDebugString(full_path.c_str());
 			if(PathFileExists(full_path.c_str())){
 				all_user_data.push_back(full_path);
